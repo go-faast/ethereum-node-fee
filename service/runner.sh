@@ -10,6 +10,7 @@ nohup geth \
   --minerthreads=1 \
   --rpc \
   --rpcaddr 0.0.0.0 \
+  --rpcvhosts=* \
   --maxpeers=0 \
   --nodiscover \
   &
